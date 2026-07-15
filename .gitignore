@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# Generated Files
+models/*
+reports/figures/*
+reports/summaries/*
+
+# Exceptions
+!models/.gitkeep
+!reports/figures/.gitkeep
+!reports/summaries/.gitkeep
+
+# OS Files
+.DS_Store
+Thumbs.db
