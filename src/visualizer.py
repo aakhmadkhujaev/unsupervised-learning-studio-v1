@@ -7,13 +7,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.decomposition import PCA
-from constants import DEFAULT_PCA_COMPONENTS
+from src.constants import DEFAULT_PCA_COMPONENTS
 from config import (
     FIGURE_SIZE,
     FIGURE_DPI
 )
 
-from utils import save_figure
+from src.utils import save_figure
 
 
 def plot_clusters(

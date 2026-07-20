@@ -3,7 +3,7 @@ Dataset validation utilities.
 """
 
 import pandas as pd
-from constants import MINIMUM_ROWS, MINIMUM_FEATURES
+from src.constants import MINIMUM_ROWS, MINIMUM_FEATURES
 import warnings
 
 

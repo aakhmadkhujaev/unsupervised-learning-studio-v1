@@ -1,29 +1,18 @@
 # Virtual Environment
 .venv/
+venv/
 
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Jupyter
-.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
 
 # VS Code
 .vscode/
 
-# Environment Variables
-.env
-
-# Generated Files
-models/*
-reports/figures/*
-reports/summaries/*
-
-# Exceptions
-!models/.gitkeep
-!reports/figures/.gitkeep
-!reports/summaries/.gitkeep
+# Artifacts
+artifacts/
 
 # OS Files
 .DS_Store

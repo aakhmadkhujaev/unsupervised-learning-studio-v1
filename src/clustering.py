@@ -1,4 +1,4 @@
-from constants import SUPPORTED_CLUSTERING_MODELS
+from src.constants import SUPPORTED_CLUSTERING_MODELS
 
 import numpy as np
 
